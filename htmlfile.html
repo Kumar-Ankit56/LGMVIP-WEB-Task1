@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task-1</title>
+	<link rel="stylesheet" href="cssfile.css">
+	<link rel="stylesheet" href="phone.css">
+	<script src="https://kit.fontawesome.com/9d7d2185fb.js" crossorigin="anonymous"></script>
+</head>
+
+<body style="height: 2000px;">
+	<header>
+		<div class="container">
+			<div class="navbar">
+				<div class="logo">
+					<div id="logo">Mar<span id="logo-s">ian</span></div>
+				</div>
+				<nav>
+					<ul id="MenuItem">
+						<li><a href="#logo">Home</a></li>
+						<li><a href="#about-us">About</a></li>
+						<li><a href=".campus">Rooms</a></li>
+						<li><a href="">Gallery</a></li>
+						<li><a href="./account.html">Feature</a></li>
+					</ul>
+				</nav>
+				<a href="./contact.html"> <i class="fa fa-phone"></i></a>
+				<img src="./img/menu.png" alt="menu" class="menu-icon" onclick="menutoggle()">
+			</div>
+		</div>
+	</header>
+
+	<div class="slider">
+		<!-- fade css -->
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>Spend Quality And <br>Holiday With Us!</h1>
+				<p>The greatest glory in living lies not in never falling, but 
+					in rising <br>every time we fall.</p>
+				<a href="" class="btn">Explore Now &#8594; </a>
+			</div>
+			<img src="/img/Header1.jpg" style="width: 100%; height: 100%;">
+		</div>
+
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>Hotel for the whole <br>Family All Year round</h1>
+				<p>The greatest glory in living lies not in never falling, but 
+					in rising <br>every time we fall.</p>
+			    <a href="" class="btn">Explore Now &#8594; </a>
+			</div>
+			<img src="/img/Header4.jpg" style="width: 100%; height: 100%;">
+		</div>
+
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>More than a hotel <br>An experience</h1>
+				<p>The greatest glory in living lies not in never falling, but 
+					in rising <br>every time we fall.</p>
+			    <a href="" class="btn">Explore Now &#8594; </a>
+			</div>
+			<img src="/img/Header5.jpg" style="width: 100%; height: 100%;">
+		</div>
+
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>It Feels Like Staying<br>In Your Own Home</h1>
+				<p>The greatest glory in living lies not in never falling, but 
+				in rising <br>every time we fall.</p>
+				<a href="" class="btn">Explore Now &#8594; </a>
+			</div>
+			<img src="/img/Header2.jpg" style="width: 100%; height: 100%;">
+		</div>
+		<div class="dotsbox" style="text-align:left">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+			<span class="dot" onclick="currentSlide(4)"></span>
+			<span class="dot" onclick="currentSlide(5)"></span>
+		</div>
+		<!-- /onclick js -->
+	</div>
+
+	<!-- -----------------========About us==========-------------------- --> */
+	<section id="about-us">
+		<div class="title">
+			<h2>About us</h2>
+		</div>
+		<div class="row">
+			<div class="about-col">
+				<h1>We are the world's largest Hospitaltity</h1>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam nesciunt, inventore incidunt nemo
+					nostrum <br> cupiditate quae enim magnam quis neque! Quidem molestiae rerum animi sed explicabo velit in
+					dolores expedita, repellat suscipit.<br> nobis fuga! Lorem ipsum dolor, sit amet consectetur
+					adipisicing elit.<br> Necessitatibus soluta reprehenderit id labore cum, voluptates corporis quisquam
+					totam maxime ut autem quos doloribus. Quod saepe omnis ad quaerat nulla id atque iusto qui dolorem a
+					error minus unde eveniet incidunt, possimus quasi cumque, tempore repudiandae consectetur! Eaque rem
+					quam totam?
+				</p>
+				<a href="" class="btn">Know more</a>
+			</div>
+			<div class="about-col">
+				<img src="/img/About us.jpg" alt="">
+			</div>
+		</div>
+	</section>
+
+	<!-- ----------=======Rooms==========----------------------------->
+	<section class="campus">
+		<div class="title">
+			<h2>Rooms</h2>
+		</div>
+		<div class="row">
+			<div class="campus-col">
+				<img src="./img/r5.jpg" alt="t">
+				<div class="layer">
+					<h3>Family Room</h3>
+					<p>$599/-</p>
+				</div>
+			</div>
+			<div class="campus-col">
+				<img src="./img/r2.jpg" alt="t">
+				<div class="layer">
+					<h3>Double</h3>
+					<p>$650/-</p>
+				</div>
+			</div>
+			<div class="campus-col">
+				<img src="./img/r3.jpg" alt="t">
+				<div class="layer">
+					<h3>Luxury Room</h3>
+					<p>$999/-</p>
+				</div>
+			</div>
+			<div class="campus-col">
+				<img src="./img/r4.jpg" alt="t">
+				<div class="layer">
+					<h3>Single Room</h3>
+					<p>$350/-</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ----------=======Rooms part End==========----------------------------->
+
+
+	<!-- ----------=======Our Gallery==========----------------------------->
+	<div class="small-container">
+		<div class="title">
+			<h2>Our Gallery</h2>
+		</div>
+		<div class="row">
+			<div class="col-4">
+				<img src="./img/Gallery1.jpg" alt="product">
+			</div>
+			<div class="col-4">
+				<img src="./img/Gallery2.jpg" alt="product">
+			</div>
+			<div class="col-4">
+				<img src="./img/Gallery3.jpg" alt="product">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-4">
+				<img src="./img/Gallery4.jpg" alt="product">
+			</div>
+			<div class="col-4">
+				<img src="./img/Gallery5.jpg" alt="product">
+			</div>
+			<div class="col-4">
+				<img src="./img/Gallery 6.jpg" alt="product">
+			</div>
+		</div>
+	</div>
+	<!-- ----------=======Our Gallery part End==========----------------------------->
+
+	<!-- ----------=======Hotel Feature==========----------------------------->
+	<div class="container">
+		<div class="title">
+			<h2>Hotel Feature</h2>
+		</div>
+
+		<div class="row">
+			<div class="service">
+				<i class="fas fa-swimming-pool"></i>
+				<h2>SWimming Pool</h2>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet delectus </p>
+			</div>
+			<div class="service">
+				<i class="fas fa-user-md"></i>
+				<h2>Doctor on call</h2>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet delectus </p>
+			</div>
+			<div class="service">
+				<i class="fas fa-parking"></i>
+				<h2>Car Parking</h2>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet delectus </p>
+			</div>
+			<div class="service">
+				<i class="fas fa-utensils"></i>
+				<h2>Restaurant</h2>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet delectus </p>
+			</div>
+			<div class="service">
+				<i class="fas fa-shipping-fast"></i>
+				<h2>Shipping Services</h2>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet delectus </p>
+			</div>
+			<div class="service">
+				<i class="fas fa-dumbbell"></i>
+				<h2>GYM</h2>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet delectus </p>
+			</div>
+			<div class="service">
+				<i class="fas fa-user-lock"></i>
+				<h2>Security</h2>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet delectus </p>
+			</div>
+			<div class="service">
+				<i class="fas fa-wifi"></i>
+				<h2>Wi-Fi Accross</h2>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet delectus </p>
+			</div>
+		</div>
+	</div>
+	<!-- ----------=======Hotel Feature Ends==========----------------------------->
+
+	<!-- -----------------======== Testomonial===========-------------------- -->
+	<div class="testomonial">
+		<div class="small-container">
+			<div class="title">
+				<h2>What Our User Says!</h2>
+			</div>
+			<div class="row">
+				<div class="col-3">
+					<i class="fa fa-quote-left"></i>
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis consequatur, deserunt mod
+						laborum consequuntur, sed facere incidunt adipisci voluptates maxime sint nesciunt?
+					</p>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<img src="./img/user-5.jpg" alt="user1">
+					<h3>Sean Parker</h3>
+				</div>
+				<div class="col-3">
+					<i class="fa fa-quote-left"></i>
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis consequatur, deserunt mod
+						laborum consequuntur, sed facere incidunt adipisci voluptates maxime sint nesciunt?
+					</p>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<img src="./img/user-4.png" alt="user1">
+					<h3>Mike Simth</h3>
+				</div>
+				<div class="col-3">
+					<i class="fa fa-quote-left"></i>
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis consequatur, deserunt mod
+						qui
+						laborum consequuntur, sed facere incidunt adipisci voluptates maxime sint nesciunt?
+					</p>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<img src="./img/user-3.png" alt="user1">
+					<h3>Mable Joe</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- -------------call to action------------------->
+	<section class="cta">
+		<h1>Summer Promo 50% Off!</h1>
+		<a href="" class="btn">CONTACT US</a>
+	</section>
+	<!-- -------------call to action------------------->
+
+	<!-- -----------------======== Brand Sponscer===========-------------------- -->
+	<div class="brands">
+		<div class="title">
+			<h2>Our Sponscer</h2>
+		</div>
+		<div class="small-container">
+			<div class="row">
+				<div class="col-5">
+					<img src="/img/logo-coca-cola.png" alt="1">
+				</div>
+				<div class="col-5">
+					<img src="/img/logo-godrej.png" alt="2">
+				</div>
+				<div class="col-5">
+					<img src="/img/logo-oppo.png" alt="3">
+				</div>
+				<div class="col-5">
+					<img src="/img/logo-paypal.png" alt="4">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ---------============End of Sponser section========------------------------------>
+
+
+	<!-- -----------------===========Account card=======--------------------------------- -->
+	<div class="account-page">
+		<div class="container">
+			<div class="row">
+				<div class="col-2">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.305935303!2d-74.25986548248684!3d40.69714941932609
+					!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20Yor
+					k%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1630219931666!5m2!1sen!2sin" width="600" height="400" style="border:0;"
+						allowfullscreen="" loading="lazy"></iframe>
+				</div>
+				<div class="col-2">
+					<div class="form-container">
+						<div class="form-btn">
+							<span onclick="login()">Book now</span>
+							<span onclick="Signup()">Availability</span>
+							<hr id="idicator">
+						</div>
+						<form id="Logininform">
+							<input type="text" placeholder="User name">
+							<input type="number" placeholder="Number of Rooms">
+							<input type="search" placeholder="Number of Rooms">
+							<button type="submit" class="btn">Book now</button>
+						</form>
+						<form id="Signupinform">
+							<input type="date" placeholder="Ankit">
+							<input type="date" placeholder="Date of Depature">
+							<input type="number" placeholder="No Of People">
+							<input type="password" placeholder="Passward">
+							<button type="submit" class="btn">Check Now</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- -----------------====Footer===-------------------------- -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <ul>
+					<li>About us</li>
+					<li>Term & Condition</li>
+					<li>Privacy Policy</li>
+					<li>Help</li>
+					<li>Rooms</li>
+					<li>Easy booking</li>
+				</ul>
+            </div>
+            <div class="footer-col-2">
+				<img src="/img/Comp.Logo.jpg" alt="">
+				<p>Our purpose is to Sustainably make the pleasure<br>and benifits of sport accesssible to many.</p>
+			</div>
+            <div class="footer-col-3">
+                <h3>UseFull Links</h3>
+				<ul>
+	                <li>Coupons</li>
+	                <li>Blog Post</li>
+	                <li>Cancelation Policy</li>
+	                <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+		</div>
+		<hr>
+        <div class="center">
+        	Copyright &copy; www.marian.com. All right reserved!
+        </div>
+	</div>
+</div>
+<script src="jsfile.js"></script>
+
+	<!-- ---------------====Js for Toggle menu====--------------- -->
+	<script>
+		var MenuItem = document.getElementById("MenuItem");
+		MenuItem.style.maxHeight = "0px";
+		function menutoggle() {
+			if (MenuItem.style.maxHeight == "0px") {
+				MenuItem.style.maxHeight = "200px";
+			}
+			else {
+				MenuItem.style.maxHeight = "0px";
+			}
+		}
+	</script>
+
+	<!-- ---------------====Js for Toggle form====--------------- -->
+	<script>
+		var Logininform = document.getElementById("Logininform");
+		var signupinform = document.getElementById("Signupinform");
+		var indicator = document.getElementById("indicator");
+		function Signup() {
+			Signupinform.style.transform = "translateX(0px)"
+			Logininform.style.transform = "translateX(0px)"
+			idicator.style.transform = "translateX(100px)"
+		}
+		function login() {
+			Signupinform.style.transform = "translateX(300px)"
+			Logininform.style.transform = "translateX(300px)"
+			idicator.style.transform = "translateX(0px)"
+		}
+	</script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
